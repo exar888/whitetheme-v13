@@ -13,6 +13,13 @@
     scrollbar-width: thin;
     scrollbar-color: var(--scroll-color) var(--scroll-bg);
 }
+
+.navbar {
+    height: 60px;
+    background: var(--navbar-bg);
+    box-shadow: var(--shadow-sm);
+    padding: 0;
+}
 .awesomplete .input-with-feedback {
     border: 1px solid var(--border-color);
 }
@@ -53,6 +60,7 @@
 }
 
 [data-theme="light"] {
+    --navbar-bg: #0088ff;
     --bg-color: #f2f5fa;
     --text-bold: 600;
     --control-bg : #fff;
