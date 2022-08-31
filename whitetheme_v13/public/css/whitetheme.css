@@ -15,10 +15,10 @@
 }
 
 .navbar {
-    height: 60px;
     background: var(--navbar-bg);
-    box-shadow: var(--shadow-sm);
-    padding: 0;
+}
+dropdown-help {
+    display:none;
 }
 .awesomplete .input-with-feedback {
     border: 1px solid var(--border-color);
